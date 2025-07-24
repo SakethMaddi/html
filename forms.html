@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <form method="get" action="" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" minlength="6" maxlength="12" autocomplete="off">
+        <br><br>
+        <label for="phonenumber">PhNo:</label>
+        <input type="number" name="phone number" id="phonenumber">
+        <br><br>
+        <input type="submit"  >
+    </form>
+    <br><br><hr>
+
+
+
+
+
+
+
+    
+    <br><br><br>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Details</legend>
+        <input type="email" placeholder="Enter email or phno" name="email"  value="abc@g.com" required> <br><br>
+        <input type="password" placeholder="Enter password" name="password"> <br> <br>
+
+
+        <!-- Male -->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+
+        <!-- Female -->
+        <input type="radio" id="Female" name="gender" value="female">
+        <label for="Female">Female</label>
+        <br>
+
+
+        <input type="submit" value="Login">
+        
+        </fieldset>
+        <hr>
+    </form>
+
+
+
+
+
+
+
+
+    <form action="" method="post" enctype="multipart/form-data " >
+        <input type="text" placeholder="enter a value" required name="abc" pattern="[abc]+">
+        <br>
+        <!-- \d insted of 0-9 ,\s instead of space-->
+        <input type="text " placeholder="enter a-z and A-Z and 0-9" required pattern="[a-z A-Z 0-9]+" title="enter ant value small a-z and big A-Z and number 0-9 " >
+        <br>
+        <!-- .{1,} used for default length of min 1 -->
+        <input type="text" placeholder="enter any " title="enter value" required pattern=".{1,4}" >
+        <br>
+        <input type="text" placeholder="enter mobile number" required name="mobile" title="+91XXXXXXXXXX " pattern="\+91[9876][\d]{9} ">
+        <input type="submit" value="Login">
+        <br><br>
+
+
+        <!-- [abc] any one value in a,b,c -->
+        <!-- [abc]+ we can repeat abc (abcabcabc....)-->
+        <!-- [a-z]+  any number of letters -->
+        <!-- [A-Z] once cap letter-->
+        <!-- [0-9] only one in bw 0-9 -->
+        <!-- [0-9]+ any number of digits can be used -->
+        <!-- [\s]+ for space -->
+        <!-- [\d]+ for digits -->
+        <!-- {min,max} legth -->
+        <!-- . all -->
+        <!-- () grouping -->
+        <!-- | or -->
+        <!-- (?=.*) positive loockahead -->
+        <!-- *     0 or more -->
+        <!-- (?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,16}      password validation-->
+
+        <input type="text" required name="email" placeholder="gmail" pattern="[a-z\d._]+@gmail\.com">
+
+        <input type="text" placeholder="password"   required name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,16}">
+        
+    </form>
+
+</body>
+</html>

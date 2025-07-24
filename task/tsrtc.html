@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../images/tsrtc.png" width="100%" >
+    <form action="">
+        <fieldset >
+            <legend style="background-color: rgb(83, 83, 196); color: aliceblue;">Application Details </legend>
+            <table cellpadding="10" >
+                <tr>
+                    <td> 
+                        <label>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                        <input type="name" placeholder="Enter Name">
+                    </td>
+
+                    <td>
+                        <label for="">Father's/ Guardian's Name:</label>
+                        <input type="name" placeholder="Enter Father's Name ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label > Date of Birth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="date" placeholder="Enter DOB">
+                    </td>
+                    <td>
+                        <label >Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <label for="male" > Male</label>
+                        <input type="radio" id="Male" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age As on: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" name="" id="">
+                    </td>
+                    <td>
+                        <label >Aadhar Number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" name="AadharNumber" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Whasapp Number: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" >
+                    </td>
+                    <td>
+                        <label for="">Email-id: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="email" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Photo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="file"  >
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+        <br>
+
+
+        <form >
+            <fieldset>
+                <legend style="background-color: rgb(83, 83, 196); color: aliceblue;"> Residential Adress Details</legend>
+                <table cellpadding="10" cellspacing="1">
+                    <tr>
+                        <td>
+                            <label for="">Applicant's Address</label>
+                            <input type="text" maxlength="20">
+                             
+                        </td>
+                        <td>
+                            <label for="">District:</label>
+                            <select> <option value="">HYDERBAD</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Mandal:</label>
+                             <select > <option > HYDERBAD</option></select>
+                        </td>
+                        <td>
+                            <label for="">Village</label>
+                            <select > <option value="">HYDERBAD</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Pincode:</label>
+                            <input type="number" minlength="6" maxlength="6">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form><br>
+
+        <form>
+            <fieldset>
+                <legend style="background-color: rgb(83, 83, 196); color: aliceblue;">Pass Type Details</legend> 
+                <tr>
+                    <td>
+                        <label for="">City:</label>
+                        <select > <option value="">HYDERBAD</option></select>
+                    </td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+                        <label for="">Pass Type:</label>
+                        <select name="" id="">
+                            <option value="">--Select--</option>
+                            <option value="">Greater Pass</option>
+                            <option value="">Odinary Pass</option>
+                            <option value="">Metro Express pass</option>
+                            <option value="">Metro Delux Pass</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+            </fieldset>
+        </form><br>
+
+        <form action="">
+            <fieldset>
+                <legend style="background-color: rgb(83, 83, 196); color: aliceblue;">Mode of Payment & Pass Collection </legend>
+                <label for="">Payment Mode: </label>
+                <select name="" id="">
+                    <option value="">Select Payment Method</option>
+                    <option value=""> payment At counter</option>
+                </select>
+                <br><br>
+                <label for="">Pass Delivary Mode</label>
+                <select name="" id="">
+                    <option value="">Select pass delivary mode</option>
+                    <option value="">at counter</option>
+                </select>
+                
+            </fieldset>
+        </form>
+
+        <center> <input type="submit" ></center>
+
+</body>
+</html>

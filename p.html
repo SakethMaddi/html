@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Learning Portal</title>
+</head>
+<body>
+
+  <h1>Welcome to the Student Learning Portal</h1>
+
+  <!-- Navigation using anchor tags -->
+  <nav>
+    <a href="#courses">Courses</a> |
+    <a href="#timetable">Timetable</a> |
+    <a href="#form">Contact</a> |
+    <a href="#media">Tutorials</a> |
+    <a href="#iframe">More Info</a>
+  </nav>
+  <hr>
+
+  <!-- List of Courses -->
+  <section id="courses">
+    <h2>📘 Available Courses</h2>
+    <ul>
+      <li>HTML Basics</li>
+      <li>Python Programming</li>
+      <li>Mathematics</li>
+    </ul>
+    <h3>Topics in HTML:</h3>
+    <ol>
+      <li>Tags and Attributes</li>
+      <li>Forms</li>
+      <li>Multimedia</li>
+    </ol>
+  </section>
+  <hr>
+
+  <!-- Timetable using table -->
+  <section id="timetable">
+    <h2>📅 Weekly Timetable</h2>
+    <table border="1">
+      <tr>
+        <th>Day</th>
+        <th>9-10 AM</th>
+        <th>10-11 AM</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>HTML</td>
+        <td>Math</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Python</td>
+        <td>Science</td>
+      </tr>
+    </table>
+  </section>
+  <hr>
+
+  <!-- Contact Form -->
+  <section id="form">
+    <h2>📩 Contact Us</h2>
+    <form>
+      Name: <input type="text" name="name"><br><br>
+      Email: <input type="email" name="email"><br><br>
+      Course Interested: 
+      <select>
+        <option>HTML</option>
+        <option>Python</option>
+        <option>Math</option>
+      </select><br><br>
+      Message:<br>
+      <textarea rows="4" cols="30"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <hr>
+
+  <!-- Multimedia section -->
+  <section id="media">
+    <h2>🎬 Tutorial Video</h2>
+    <video width="320" height="240" controls>
+      <source src="sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h3>🎧 Audio Guide</h3>
+    <audio controls>
+      <source src="sample-audio.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+  <hr>
+
+  <!-- iframe usage -->
+  <section id="iframe">
+    <h2>🌐 Learn More</h2>
+    <iframe src="https://www.w3schools.com" width="400" height="300"></iframe>
+  </section>
+  <hr>
+
+  <!-- Details and Summary tag -->
+  <section>
+    <h2>📄 More About This Portal</h2>
+    <details>
+      <summary>Click to read more</summary>
+      <p>This portal is created using only HTML. It demonstrates various elements like forms, tables, multimedia, and navigation.</p>
+    </details>
+  </section>
+
+</body>
+</html>
